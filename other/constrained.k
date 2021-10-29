@@ -1,8 +1,14 @@
 $# LS-DYNA Keyword file created by LS-PrePost(R) V4.8.19 - 23Aug2021
 $# Created on Oct-29-2021 (14:45:40)
 *KEYWORD
+$
+$
+$
+$ =================
+$ CONSTRAINED cards
+$ =================
+$
 *CONSTRAINED_RIGID_BODIES
-$#    pidm      pids     iflag     
   88000173  88000174         0
   88000173  88000175         0
   88000173  88000176         0

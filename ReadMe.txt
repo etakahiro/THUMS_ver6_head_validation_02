@@ -20,15 +20,6 @@
         imass=3：ランタイムディレクトリー内にあるd3eigv ファイル内の固有値解析
     作成したら、input.k内でimplicit.kを*INCLUDEの中に追加する。
 
-# 小脳でcomplex sound speed in solid elementのエラーが出てしまう時
-* *CONTACT_INTERIORを設定する
-* input.k内の*CONTROL_HOURGLASSを変更する
-    ihq:6→16に変更
-* negative volume(complex sound speed)が生じているPartのhourglassを変更する
-    *HOURGLASS
-        hgid=88000001のihq：
-        hgid=88000005のihq:
-* *CONTROL_CONTACT追加
 
 *DATABASE_BINARY_INTFOR_FILEの追加
 contact要素におけるspr,mprのフラグを0→1に変更
