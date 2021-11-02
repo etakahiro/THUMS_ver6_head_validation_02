@@ -1,0 +1,60 @@
+$# LS-PrePost command file created by LS-PrePost(R) V4.8.19 - 23Aug2021 -64bit-Window
+$# Created on Nov-2-2021 (08:32:49)
+openc keyword "C:\Users\Einaga\Desktop\implicit\THUMS_ver6_head_validation_02\model_implicit\sphere_yoga3_mmton.k"
+back
+genselect target occobject
+occfilter clear
+occfilter add Vertex Edge Face RefPlane RefTrihedron
+undogeom enter
+occfilter clear
+occfilter add Node Vertex Edge Face RefPoint RefAxis RefPlane
+undogeom leave
+genselect target occobject
+occfilter clear
+occfilter add Vertex Edge Face RefPlane RefTrihedron
+undogeom enter
+undogeom leave
+genselect target occobject
+occfilter clear
+occfilter add Node Vertex Edge Face RefPoint RefAxis RefPlane
+undogeom enter
+undogeom leave
+genselect target node
+genselect clear
+meshing spheresolid create 170 0 820 48 5 1 0 0 0 1 0
+ac
+meshing spheresolid create 170 0 820 48 6 1 0 0 0 1 0
+meshing spheresolid create 170 0 820 48 7 1 0 0 0 1 0
+meshing spheresolid create 170 0 820 48 8 1 0 0 0 1 0
+meshing spheresolid create 170 0 820 48 9 1 0 0 0 1 0
+meshing spheresolid create 170 0 820 48 10 1 0 0 0 1 0
+meshing spheresolid create 170 0 820 48 11 1 0 0 0 1 0
+meshing spheresolid create 170 0 820 48 12 1 0 0 0 1 0
+meshing spheresolid create 170 0 820 48 13 1 0 0 0 1 0
+meshing spheresolid create 170 0 820 48 14 1 0 0 0 1 0
+meshing spheresolid create 170 0 820 48 15 1 0 0 0 1 0
+meshing spheresolid reject
+meshing spheresolid create 170 0 -820 48 15 1 0 0 0 1 0
+ac
+meshing spheresolid reject
+meshing spheresolid create -170 0 820 48 15 1 0 0 0 1 0
+ac
+back
+ac
+meshing spheresolid create -170 0 820 48 16 1 0 0 0 1 0
+meshing spheresolid create -170 0 820 48 17 1 0 0 0 1 0
+meshing spheresolid create -170 0 820 48 18 1 0 0 0 1 0
+meshing spheresolid create -170 0 820 48 19 1 0 0 0 1 0
+meshing spheresolid create -170 0 820 48 20 1 0 0 0 1 0
+meshing spheresolid accept 101 601 606 spheresolid
+ac
+save keywordabsolute 0
+save keywordbylongfmt 0
+save keywordbyi10fmt 0
+save outversion 10
+save keyword "C:\Users\Einaga\Desktop\implicit\THUMS_ver6_head_validation_02\model_implicit\sphere_yoga3_mmton.k"
+back
+ident select 1
+genselect target node
+genselect node add node 319/0 
+ident select 0

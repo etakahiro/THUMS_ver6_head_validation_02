@@ -3,7 +3,7 @@ $# Created on Oct-29-2021 (14:45:40)
 *KEYWORD
 *CONTROL_IMPLICIT_AUTO
 $#   iauto    iteopt    itewin     dtmin     dtmax     dtexp     kfail    kcycle
-         1        11         5       0.0       0.1       0.0         1       100
+         1        11         5       0.0      0.01       0.0         1       100
 *CONTROL_IMPLICIT_DYNAMICS
 $#   imass     gamma      beta    tdybir    tdydth    tdybur     irate     alpha
          1       0.5      0.25       0.01.00000E281.00000E28         0       0.0
