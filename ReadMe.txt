@@ -72,10 +72,16 @@ _explicit_solid_4:
 _explicit_solid_5:
     陽解法,球モデルをshellでremesh,セグメントベースコンタクト
     →変形具合は_explicit_solid_2と同じになった
+    →z方向の変形量が不安定になる
 
-_implicit_1:陰解法,ペナルティ法
+_implicit_1:
+    陰解法,ペナルティ法
     →貫通
-_implicit_2:陰解法,セグメントベースコンタクト法,頭部側の接触要素はshell要,球をremesh
+_implicit_2:
+    陰解法,セグメントベースコンタクト法,頭部側の接触要素はshell要,球をremesh
+_implicit_3:
+    陰解法,セグメントベースコンタクト法,頭部側の接触要素はshell要,球はデフォルトのメッシュ
+    3.1:dtmaxを1.00000E-8に設定
 
 球solidモデルの場合、頭部の変形具合が違うように見えるのはメッシュの問題か？→メッシュの違いによる影響
 
@@ -86,6 +92,15 @@ _implicit_2:陰解法,セグメントベースコンタクト法,頭部側の接
 * SECTION変更(section_edit.pyを実行)
 * implicit.kの作成
 ----------------------------------------------------------------------
+正しくできた解析
+陽解法：THUMS_ver6_head_validation_explicit
+陰解法：THUMS_ver6_head_validation_02_implicit_2
+
+計算時間
+陽解法：0 hours 6 minutes 51seconds
+陰解法：6 hours 21 minutes 35 seconds
+計算時間を短縮するために、タイムステップサイズを調整できなか？
+
 
 
 
