@@ -18,7 +18,7 @@ $:---------------------------------------
 $: CONTACT 10
 $
 $#    ssid      msid     sstyp     mstyp    sboxid    mboxid       spr       mpr
-        10       101         2         3         0         0         1         1
+         9       100         2         3         0         0         1         1
 $#      fs        fd        dc        vc       vdc    penchk        bt        dt
        0.1       0.1      10.0       0.0      20.0         1       0.0       0.0
 $#     sfs       sfm       sst       mst      sfst      sfmt       fsf       vsf

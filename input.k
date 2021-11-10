@@ -20,10 +20,12 @@ $ 接触定義
 $ contact\contact.k
 $ =========陰解法用=========
 $ 陰解法の設定
-$ implicit.k
+implicit.k
 $ モデル
 model_implicit/Head_V6.k
 model_implicit/sphere_yoga3_mmton.k
+$ model_implicit/sphere_yoga3_mmton_solid.k
+$ model_implicit/sphere_yoga3_mmton_shell_remesh.k
 $ 接触定義
 contact\contact_implicit.k
 $---+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8
@@ -77,8 +79,7 @@ $---+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8
 *DATABASE_NODOUT
  1.000e-05
 *DATABASE_HISTORY_NODE
-$       287       513  88280309  88279711  88279710  88279623
-     28656     28655  88280309  88279711  88279710  88279623
+88280309  88279711  88279710  88279623
 *DATABASE_RCFORC
  1.000e-05
 *DATABASE_BINARY_D3PLOT
