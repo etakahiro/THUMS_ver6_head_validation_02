@@ -22,10 +22,11 @@ $ =========陰解法用=========
 $ 陰解法の設定
 implicit.k
 $ モデル
-model_implicit/Head_V6.k
-model_implicit/sphere_yoga3_mmton.k
+$ model_implicit/Head_V6.k
+model_implicit/Head_V6_section_solid.k
+$ model_implicit/sphere_yoga3_mmton.k
 $ model_implicit/sphere_yoga3_mmton_solid.k
-$ model_implicit/sphere_yoga3_mmton_shell_remesh.k
+model_implicit/sphere_yoga3_mmton_shell_remesh.k
 $ 接触定義
 contact\contact_implicit.k
 $---+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8

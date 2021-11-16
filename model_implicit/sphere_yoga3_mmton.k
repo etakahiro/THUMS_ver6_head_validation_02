@@ -39,7 +39,7 @@ rigid sphere(shell)
 $#     pid     secid       mid     eosid      hgid      grav    adpopt      tmid
        100       100       100         0         0         0         0         0
 $#      xc        yc        zc        tm      ircs    nodeid      
-    -170.0       0.0     820.0  0.001213         0         0
+    -170.0      48.0     820.0  0.001213         0         0
 $#     ixx       ixy       ixz       iyy       iyz       izz   
 1.863000E9  -16460.0  177200.01.863000E9   -2940.01.863000E9
 $#     vtx       vty       vtz       vrx       vry       vrz   

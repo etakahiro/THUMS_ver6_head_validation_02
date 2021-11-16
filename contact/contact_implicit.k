@@ -24,7 +24,7 @@ $#      fs        fd        dc        vc       vdc    penchk        bt        dt
 $#     sfs       sfm       sst       mst      sfst      sfmt       fsf       vsf
        1.0       1.0       0.5       0.5       1.0       1.0       1.0       1.0
 $#    soft    sofscl    lcidab    maxpar     sbopt     depth     bsort    frcfrq
-         2       0.0         0       0.0       0.0         0         0         0
+         1       0.0         0       0.0       0.0         0         0         0
 $
 $
 $: Cross-reference summary for SET_PART 9
